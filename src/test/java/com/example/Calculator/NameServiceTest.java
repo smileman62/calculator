@@ -10,7 +10,7 @@ class NameServiceTest {
 	@DisplayName("본인 이름을 정확히 반환한다")
 	void getMyName_shouldReturnRealName() {
 		NameService nameService = new NameService();
-		String expected = "당신의_이름_여기에"; // NameService와 동일한 본인 이름으로!
+		String expected = "김진성";
 		assertEquals(expected, nameService.getMyName());
 	}
 }
